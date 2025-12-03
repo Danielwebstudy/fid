@@ -29,6 +29,15 @@ a:active {
   color: #f15111;
   background-color: #fff;
 }
+ul{
+  text-align: center;
+}
+ul li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px; 
+}
+
 h1 {
   font: bold 1.5em Georgia, serif;
   text-shadow: .1em .1em .2em gray;
