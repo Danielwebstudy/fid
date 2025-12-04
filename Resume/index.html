@@ -4,83 +4,24 @@
 <meta charset="UTF-8">
 <title>DG Web Presence</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-    body {
-        background-color: #faf5e6;
-        margin: 0% 20%;
-        font-family: serif;        
-    }
-    h1 {
-        font-family: serif;
-        font-weight: bold;
-        text-align: center;
-        text-transform: uppercase;
-        color: #004030;
-        border-bottom: 8px solid #4A9782;
-    }
-    h2 {
-        font-family: serif;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #004030;
-    }
-    dt {
-        font-family: serif;
-        font-weight: bold;
-        font-size: 19px;
-        display: list-item;
-        list-style-type: disc;
-        margin-left: 40px;
-        color: #3b665b;
-    }
-    dd {
-        font-family: serif;
-        font-weight: normal;
-        font-size: 19px;
-        color: #4A9782;
-        margin-bottom: 10px;
-    }
-    p {
-        font-family: serif;
-        font-weight: normal;
-        font-size: 19px;
-        color: #3b665b;
-    }
-    ul {
-        font-family: serif;
-        font-weight: normal;
-        font-size: 19px;
-        color: #3b665b;
-    }
-    a {
-        color: #3b665b;
-    }
-    #Images {
-        text-align: center;
-    }
-    #Image-Distance {
-        word-spacing: 60px;
-    }
-    nav {
-        text-align: center;
-        font-family: serif;
-        font-weight: normal;
-        font-size: 19px;
-        color: #3b665b;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
+    @import url(indexstyles.css);
 </style>
 </head>
 
 <body>
-<header>
+<header class="box">
 <h1 id="Top">Daniel's Resume</h1>
-<p>Welcome, I'm Daniel, and this is my Web presence, which serves as a digital resume displaying my skills, ambitions,
+<p class="margins">Welcome, I'm Daniel, and this is my Web presence, which serves as a digital resume displaying my skills, ambitions,
  and work experience. Also included at the bottom of this page are some examples of my personal 3D renders and other works. Below
  you'll find more about who I am and what inspires me.</p>
+</header>
 
- <article>
+ <article class="box">
  <h2>More about me</h2>
- <p>I'm currently a college student enrolled in the digital media track,
+ <p class="margins">I'm currently a college student enrolled in the digital media track,
  pursuing a career in 3D modeling. Specifically, what piqued my interest in 3D modeling is the ability to create small pieces that
  reflect a bigger world, or in some cases, even creating an entire world. Other interests of mine include biking, swimming, gaming,
  photography, and drawing. My hobbies keep me engaged and inspired, and even help to develop skills such as clear communication,
@@ -89,12 +30,12 @@
  shows that my family and I have been watching are: Severance, Foundation, and Silo; if you have any recommendations, feel free to
  comment about them, as I love to find new interesting shows.</p>
  </article>
-</header>
+
 
 <main>
-<section>
+<section class="box">
 <h2>Skills</h2>
-<ul>
+<ul class="margins">
     <li>Solid understanding of the <strong>PBR workflow</strong></li>
     <li>Familiar with <strong>Sub-D modeling</strong></li>
     <li>Worked with the <strong>high to low poly baking pipeline</strong></li>
@@ -108,10 +49,9 @@
 </ul>
 </section>
 
-<section>
-<h2>Software/Hardware</h2>
-
-<dl>
+<section class="box">
+<h2>Software / Hardware</h2>
+<dl class="margins">
     <dt>Maya</dt>
     <dd>Worked with Maya for five years and have become very familiar with its 3D modeling tools and Arnold rendering engine.</dd>
 
@@ -122,23 +62,22 @@
     <dd>I've been using Substance Painter for two years and have become familiar with creating PBR textures, but I'm still developing my skillset when it comes to more complex textures.</dd>
 
     <dt>Affinity Photo</dt>
-    <dd>Worked with Affinity Photo for five years with a focus on photo editing and vector design.</dd>
+   <dd>Worked with Affinity Photo for five years with a focus on photo editing and vector design.</dd>
 
     <dt>Photoshop</dt>
     <dd>Worked with Photoshop for four years, and understand the basics of Photoshop's tools.</dd>
 </dl>
-
 </section>
 
-<section>
+<section class="box">
 <h2>Social Media/Web</h2>
-<ul>
-    <li><a href="https://github.com/Danielwebstudy" target="_blank"><p>GitHub</p></a></li>
-    <li><a href="https://danielwebstudy.github.io/fid/bistro/index.html" target="_blank"><p>My Website</p></a></li>
+<ul id="links">
+    <a href="https://github.com/Danielwebstudy" target="_blank"><li>GitHub</li></a>
+    <a href="https://danielwebstudy.github.io/fid/bistro/index.html" target="_blank"><li>My Website</li></a>
 </ul>
 </section>
 
-<section id="Images">
+<section id="Images" class="box">
 <h2>Work Samples</h2>
 <section id="Image-Distance">
 <a href="My_Work/Vintage_Remnants.html"><img src="../bistro/Images/Vintage_Remnants-200.png" alt="Close-up of old medical bottles and a syringe" width="200" height="200"></a>
