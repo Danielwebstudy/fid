@@ -6,7 +6,7 @@
         margin: 0% 20%;
         font-size: 20px;
         color: #454545;
-        background-image: url(../Bistro/Images/Pattern.png);
+        background-image: url(../bistro/Images/Pattern.png);
         background-position: center;
         background-size: 250px;
     }
@@ -119,4 +119,5 @@
         width: 90%;
         margin: auto;
     }
+
 
