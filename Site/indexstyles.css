@@ -54,14 +54,14 @@
 
     }
     dt {
-        grid-row-start: 2;
-        padding: 10px;
-    }
-    dd {
         color: #03045E;
         font-weight: bold;
         grid-row-start: 1;
         margin-left: 0;
+    }
+    dd {
+        grid-row-start: 2;
+        padding: 10px;
     }
     header a{
         color: #90E0EF;
@@ -120,3 +120,4 @@
         border-radius: 25%;
 
     }
+
